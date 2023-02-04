@@ -6,7 +6,12 @@
 .con {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 96px 96px;
 }
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
+}
+.img-p {
+  border-radius: 50%;
+  height: 32px;
 }

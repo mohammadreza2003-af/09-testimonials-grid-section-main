@@ -50,3 +50,9 @@ body {
 .head-dis {
   color: hsl(0, 0%, 81%);
 }
+.grid {
+  display: grid;
+}
+.grid--3--c {
+  grid-template-columns: 600px 1fr 1fr;
+}

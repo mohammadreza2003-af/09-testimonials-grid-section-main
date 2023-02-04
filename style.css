@@ -6,7 +6,7 @@
 .con {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 64px 64px;
+  padding: 72px 72px;
 }
 body {
   color: #fff;
@@ -72,6 +72,7 @@ body {
 .head-box {
   display: flex;
   gap: 12px;
+  align-items: center;
 }
 .head-text {
   margin-bottom: 4px;
@@ -146,6 +147,9 @@ body {
 }
 /* media */
 @media (max-width: 1100px) {
+  .con {
+    padding: 72px 72px;
+  }
   .grid--3--c {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 400px 400px;
@@ -251,6 +255,9 @@ body {
   }
 }
 @media (max-width: 450px) {
+  .con {
+    padding: 72px 96px;
+  }
   .img-p {
     border-radius: 50%;
     height: 32px;

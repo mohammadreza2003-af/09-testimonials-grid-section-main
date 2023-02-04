@@ -9,9 +9,28 @@
   padding: 96px 96px;
 }
 body {
+  font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 .img-p {
   border-radius: 50%;
   height: 32px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.head-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.head-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+.head-j {
+  font-weight: 500;
+  font-size: 13px;
 }

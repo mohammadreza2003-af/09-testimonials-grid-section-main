@@ -99,8 +99,8 @@ body {
   display: grid;
 }
 .grid--3--c {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 300px 300px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 300px);
 }
 .head-text-5,
 .head-text-3 {

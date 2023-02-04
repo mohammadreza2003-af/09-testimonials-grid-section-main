@@ -9,6 +9,7 @@
   padding: 96px 96px;
 }
 body {
+  color: #fff;
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
@@ -20,6 +21,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+.box-1 {
+  padding: 24px;
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 9px;
 }
 .head-box {
   display: flex;
